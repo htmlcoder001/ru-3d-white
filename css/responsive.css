@@ -1,0 +1,89 @@
+/*! Responsive styles. (responsive.css) | @author webtitov.ru */
+
+@media (max-width: 479px) {
+
+}
+
+@media (max-width: 425px) {
+  .intro-info__price {
+    right: 12px;
+  }
+  .intro-info__prod {
+    width: 280px;
+    height: auto;
+  }
+  .countdown-progress__item {
+    height: 10px;
+    width: 28px;
+  }
+  .countdown-amount__text {
+    font-size: 22px;
+  }
+  .about-box__item {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 374px) {
+  .steps-wrapper__item {
+    flex-direction: column;
+  }
+  .steps-wrapper__title,
+  .gif-wrapper__title span,
+  .theme-button__text {
+    font-size: 24px;
+  }
+  .about-wrapper__headline,
+  .gif-wrapper__title,
+  .features-wrapper__title,
+  .delivery-wrapper__title {
+    font-size: 28px;
+  }
+  .steps-wrapper__title br {
+    display: none;
+  }
+  .steps-item__text,
+  .features-wrapper__text,
+  .about-wrapper__text,
+  .gif-wrapper__text,
+  .intro-line__title span,
+  .intro-features__text,
+  .countdown-wrapper__heading,
+  .countdown-amount__text,
+  .features-item__text,
+  .delivery-item__text {
+    font-size: 16px;
+  }
+  .cta-wrapper__text,
+  .about-box__item,
+  .cta-head__name,
+  .features-wrapper__title span {
+    font-size: 18px;
+  }
+  .intro-wrapper__features {
+    max-width: 180px;
+  }
+  .theme-button {
+    max-width: 300px;
+    height: 56px;
+  }
+  .countdown-progress__item {
+    height: 6px;
+    width: 20px;
+  }
+  .features-item__icon {
+    height: auto;
+  }
+  .intro-price__tag {
+    width: 150px;
+    height: 115px;
+  }
+  .intro-price__new {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .intro-price__old {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
